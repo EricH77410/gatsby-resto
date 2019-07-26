@@ -5,5 +5,42 @@
 }
 
 :root {
-  --mainBlue: blue;
+  --mainYellow: #d2aa5c;
+}
+
+
+@media (min-width:768px){
+  nav {
+    display: flex;
+    align-items: center;
+  }
+}
+
+.nav-header {
+  padding: 0.4rem 1rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;  
+}
+
+.toggle-icon {
+  font-size: 1.7rem;
+  color: var(--mainYellow);
+  cursor: pointer;
+}
+
+@media (min-width:768px) {
+  .toggle-icon {
+    display: none;
+  }
+}
+
+.links-list li {
+  list-style-type: none;
+}
+
+.nav-link {
+  display: block;
+  text-decoration: none;
+  padding: 0.5rem 1rem;
 }
