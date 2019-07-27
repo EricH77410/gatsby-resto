@@ -5,6 +5,7 @@ import SEO from "../components/seo"
 import { HomeHeader, Banner, BannerButton } from '../utils'
 import QuickInfo from '../components/HomePage/QuickInfo'
 import Gallery from '../components/HomePage/Gallery'
+import Menu from '../components/HomePage/Menu'
 
 const IndexPage = () => (
   <Layout>
@@ -16,6 +17,7 @@ const IndexPage = () => (
     </HomeHeader>
     <QuickInfo />
     <Gallery />
+    <Menu />
   </Layout>
 )
 
